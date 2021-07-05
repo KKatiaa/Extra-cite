@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    color:rgb(48, 48, 54);
+    color: rgb(48, 48, 54);
 }
 
 .top {
@@ -26,7 +26,7 @@
     margin: 20px 5px 50px 0;
     font-size: 0.9rem;
     width: 120px;
-    color:rgb(48, 48, 54);
+    color: rgb(48, 48, 54);
 }
 
 p > span {
@@ -47,21 +47,21 @@ h1 > span {
 .top > p {
     margin: 20px 0 20px 85px;
     width: 600px;
-    color:rgb(48, 48, 54);
+    color: rgb(48, 48, 54);
     text-align: left;
 }
 
 .top > button {
-    background-color:rgb(126, 180, 45);
+    background-color: rgb(126, 180, 45);
     border: none;
     margin-top: 150px;
     margin: 50px 0 200px 85px;
     padding: 15px 20px;
-    color:white;
+    color: white;
 }
 
 .top > a {
-    color:white;
+    color: white;
     margin-left: 100px;
 }
 
@@ -85,10 +85,9 @@ h1 > span {
 
 .main > article:last-child {
     margin-bottom: 175px;
-    
 }
 
-.main > article > div > h4{
+.main > article > div > h4 {
     color: white;
     width: 290px;
     margin-left: 100px;
@@ -96,7 +95,7 @@ h1 > span {
     float: left;
 }
 
-.main > article > div > p{
+.main > article > div > p {
     color: white;
     width: 290px;
     margin-left: 100px;
@@ -105,7 +104,7 @@ h1 > span {
     padding: 10px 0;
 }
 
-.main > article > div > a{
+.main > article > div > a {
     color: white;
     width: 290px;
     margin-left: 100px;
@@ -113,7 +112,15 @@ h1 > span {
     float: left;
 }
 
+.footer-wrapper {
+    position: relative;
+}
+
 .zindex {
+    background-color: greenyellow;
+    position: absolute;
+    top: 0;
+    left: 35%;
     z-index: 10000;
 }
 
@@ -121,12 +128,14 @@ footer {
     background-color: rgb(48, 48, 54);
     display: flex;
     text-align: center;
+    position: absolute;
+    top: 20px;
 }
 
 footer > .logo2 {
     display: flex;
     width: 150px;
-    margin-top:110px;
+    margin-top: 110px;
 }
 
 footer > .logo2 > img {
@@ -134,21 +143,21 @@ footer > .logo2 > img {
 }
 
 footer > .logo2 > p {
-    color:white;
+    color: white;
     margin: 20px 5px 50px 0;
     font-size: 0.9rem;
     width: 120px;
 }
 
 footer > .logo2 > p > span {
-    color:white;
+    color: white;
     font-weight: 700;
     font-size: 1.5rem;
 }
 
 footer > p {
-    color:white;
-    margin-top:110px;
+    color: white;
+    margin-top: 110px;
     margin: 0 130px;
     margin-top: 145px;
 }
